@@ -262,7 +262,57 @@ color:#2563EB;
   cursor: pointer;
 }
 .projects-more-btn-div{
-    margin:100px auto;
+    margin:100px auto auto 0px;
     text-align: center;
 }
 /* Projects section ended */
+
+/* skills start */
+.skills-section{
+    padding:120px 10%;
+    background:#F9FAFB;
+}
+
+.skills-title{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:60px;
+    color:#111827;
+}
+
+/* grid */
+
+.skills-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+/* skill card */
+
+.skill-card{
+    background:#FFFFFF;
+    padding:30px;
+    border-radius:10px;
+    border:1px solid #E5E7EB;
+    transition:0.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-6px);
+}
+
+/* text */
+
+.skill-card h3{
+    font-size:22px;
+    margin-bottom:10px;
+    color:#111827;
+}
+
+.skill-card p{
+    font-size:15px;
+    color:#6B7280;
+    line-height:1.6;
+}
+/* skills ended */
